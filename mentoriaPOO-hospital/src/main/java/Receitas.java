@@ -21,10 +21,6 @@ public class Receitas {
         return medicamentos;
     }
 
-    public String getPrescricao() {
-        return prescricao;
-    }
-
     public Medicos getMedicos() {
         return medicos;
     }
