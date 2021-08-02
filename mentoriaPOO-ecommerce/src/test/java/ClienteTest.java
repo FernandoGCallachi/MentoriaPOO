@@ -34,6 +34,7 @@ class ClienteTest {
         assertEquals(clienteBase.getCpf(), clientePar.getCpf());
         assertEquals(clienteBase.getEmail(), clientePar.getEmail());
         assertEquals(clienteBase.getSenha(), clientePar.getSenha());
+        assertEquals(clienteBase.getPedidos(), clientePar.getPedidos());
 
     }
 }
